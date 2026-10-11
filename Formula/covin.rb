@@ -1,6 +1,6 @@
 # Homebrew formula for Covin Local: the prebuilt binary from covin.dev/dl (no Python, no build).
-# Template: it lives in this repo and is copied to the tap repo kartikeysachdeva/homebrew-tap (Formula/covin.rb),
-# which serves `brew install kartikeysachdeva/tap/covin`. (github.com/covin is an unrelated user.)
+# Template: it lives in this repo and is copied to the tap repo covin-dev/homebrew-tap (Formula/covin.rb),
+# which serves `brew install covin-dev/tap/covin`. (github.com/covin is an unrelated user.)
 #
 # After each release, set version/url/sha256 for every platform from that release's manifest with:
 #   packaging/homebrew/update-formula.sh <version>

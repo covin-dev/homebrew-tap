@@ -3,7 +3,7 @@
 Covin Local: an on-device guard that checks what your coding agents do against your task.
 
 ```sh
-brew install kartikeysachdeva/tap/covin
+brew install covin-dev/tap/covin
 covin setup
 ```
 
