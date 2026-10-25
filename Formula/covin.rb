@@ -8,28 +8,28 @@
 class Covin < Formula
   desc "On-device guard that checks what your coding agents do against your task"
   homepage "https://covin.dev"
-  version "0.1.14"
+  version "0.1.15"
   license :cannot_represent # end-user licence (EULA.txt in the archive)
 
   on_macos do
     on_arm do
-      url "https://covin.dev/dl/0.1.14/covin-darwin-arm64.tar.gz"
-      sha256 "aad6d45291400f0e9e441b448336c7b135ccc91d8341e8f026b0825e26ff3990"
+      url "https://covin.dev/dl/0.1.15/covin-darwin-arm64.tar.gz"
+      sha256 "b5d8db13f54f794e57273ace931fd181792fe01d93722561c91be51fc5f194e4"
     end
     on_intel do
-      url "https://covin.dev/dl/0.1.14/covin-darwin-x86_64.tar.gz"
-      sha256 "5f65f80b71ebf99295ad39004c4d0a4909445920b2674e473c6d9448945f26ba"
+      url "https://covin.dev/dl/0.1.15/covin-darwin-x86_64.tar.gz"
+      sha256 "75c802b3b7b51595a8c8300e3b9fd40d49383faa9e8bb0f972c27a51d283e0ea"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://covin.dev/dl/0.1.14/covin-linux-arm64.tar.gz"
-      sha256 "de0dfc865b72354dac65d39f28f9ae3bbb927764394af87e71b1eaeac77d6d22"
+      url "https://covin.dev/dl/0.1.15/covin-linux-arm64.tar.gz"
+      sha256 "b6fd3b1fc8d7c6a8e99cd282585a8e7ea306e521c16b23656b6d733d566576e7"
     end
     on_intel do
-      url "https://covin.dev/dl/0.1.14/covin-linux-x86_64.tar.gz"
-      sha256 "2409d2a9ef8e7aeb19b30f865ac75614dbbc6d834914450b9418ccb03963495e"
+      url "https://covin.dev/dl/0.1.15/covin-linux-x86_64.tar.gz"
+      sha256 "bf5cc0348fdc99958167e2af82ee7ad633320b73c3ce55272a12d3faec2b32a5"
     end
   end
 
